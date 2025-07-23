@@ -6,7 +6,7 @@ This Python script utilizes various libraries to create a conversational AI mode
 </p>
 
 ## Dependencies
-Ensure you have the following Python libraries installed:
+Install required packages using pip:
 
 * tiktoken
 * openai
@@ -14,7 +14,7 @@ Ensure you have the following Python libraries installed:
 * pinecone-client
 * langchain
 
-## You can install them using pip:
+### You can install them using pip:
 
 ```bash
 pip install tiktoken openai tqdm pinecone-client langchain
@@ -47,8 +47,16 @@ query1 = "ماهو الطقس في الرياض"  # Arabic: What is the weather 
 query2 = "What is the summary of the discussion of cybersecurity issues at the Riyadh forum?"
 query3 = "بماذا تعاهد ولي العهد مع بوتين عن منظمة الاوبك ؟"  # Arabic: What did the Crown Prince promise Putin regarding OPEC?
 ```
-## Output
+## Example Output
 The results of the queries are printed out in the console. Each query will return a response based on the retrieved context from the web documents.
+```
+Q: ماهو الطقس في الرياض؟
+A: من المتوقع أن يكون الطقس حارًا جدًا هذا الأسبوع مع درجات حرارة تتراوح بين 43 و46 درجة مئوية.
+
+Q: What is the summary of the discussion of cybersecurity issues?
+A: The Riyadh forum addressed key cybersecurity challenges including AI risks, national infrastructure protection, and GCC-wide collaboration.
+```
+
 <p align="center">
   <img width="1000" height="110" src=https://github.com/user-attachments/assets/381994ef-3dc3-4cb9-be79-2f3e503d8b12>
 </p>
